@@ -1,0 +1,166 @@
+RAIZ: /home/bgrod/tac-artigo
+== ZIPs em dados_brutos: 16
+  indicadores_trajetoria_es_2015_2024.zip (78.5 MB)
+  indicadores_trajetoria_es_2016_2024.zip (75.2 MB)
+  indicadores_trajetoria_es_2017_2024.zip (71.8 MB)
+  indicadores_trajetoria_es_2018_2024.zip (67.8 MB)
+  indicadores_trajetoria_es_2019_2024.zip (62.0 MB)
+  indicadores_trajetoria_es_2020_2024.zip (53.1 MB)
+  microdados_censo_da_educacao_superior_2015.zip (8.4 MB)
+  microdados_censo_da_educacao_superior_2016.zip (9.1 MB)
+  microdados_censo_da_educacao_superior_2017.zip (10.7 MB)
+  microdados_censo_da_educacao_superior_2018.zip (13.2 MB)
+  microdados_censo_da_educacao_superior_2019.zip (16.9 MB)
+  microdados_censo_da_educacao_superior_2020.zip (22.3 MB)
+  microdados_censo_da_educacao_superior_2021.zip (26.6 MB)
+  microdados_censo_da_educacao_superior_2022.zip (33.2 MB)
+  microdados_censo_da_educacao_superior_2023.zip (38.4 MB)
+  microdados_censo_da_educacao_superior_2024 (2).zip (456.8 MB)
+
+== INVENTÁRIO: 164 arquivos (55 lixo ignorado: md5, ~$, Thumbs.db)
+Por extensão: {'.xlsx': 16, '.ods': 6, '.docx': 6, '.pdf': 61, '.csv': 20}
+
+== CENSO: arquivos e esquemas
+CURSOS: anos [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024] | faltando: nenhum
+IES: anos [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024] | faltando: nenhum
+  CURSOS 2015: 200 col | 81156 linhas | novas=0 [] | ausentes=0 []
+  CURSOS 2016: 200 col | 92866 linhas | novas=0 [] | ausentes=0 []
+  CURSOS 2017: 200 col | 119798 linhas | novas=0 [] | ausentes=0 []
+  CURSOS 2018: 200 col | 182892 linhas | novas=0 [] | ausentes=0 []
+  CURSOS 2019: 200 col | 253139 linhas | novas=0 [] | ausentes=0 []
+  CURSOS 2020: 200 col | 344691 linhas | novas=1 ['CO_CINE_ROTULO2'] | ausentes=1 ['CO_CINE_ROTULO']
+  CURSOS 2021: 200 col | 444786 linhas | novas=0 [] | ausentes=0 []
+  CURSOS 2022: 200 col | 573019 linhas | novas=0 [] | ausentes=0 []
+  CURSOS 2023: 202 col | 671610 linhas | novas=2 ['IN_COMUNITARIA', 'IN_CONFESSIONAL'] | ausentes=0 []
+  CURSOS 2024: 223 col | 720349 linhas | novas=26 ['IN_COMUNITARIA', 'IN_CONFESSIONAL', 'QT_CONC_RVIDOSO', 'QT_CONC_RVINTERN'] | ausentes=3 ['QT_CONC_RVETNICO', 'QT_ING_RVETNICO', 'QT_MAT_RVETNICO']
+
+CO_IES da UnB (SG_IES=UNB) em todos os anos: [2] (esperado {2})
+
+Candidatos (CO_CURSO | nome | grau | anos):
+  127 | Ciência Da Computação | grau=[1] | 2015-2024 (10 anos)
+  18032 | Computação | grau=[2] | 2015-2024 (10 anos)
+  44364 | FÍSICA COM HABILITAÇÃO EM FÍSICA COMPUTACIONAL | grau=[1] | 2015-2019 (5 anos)
+  112891 | Engenharia De Software | grau=[1] | 2015-2024 (10 anos)
+  122204 | Engenharia De Computação | grau=[1] | 2015-2024 (10 anos)
+
+QT_ING por ano e curso:
+curso         Ciência da Computação  Engenharia de Computação  Engenharia de Software
+NU_ANO_CENSO                                                                         
+2015                           93.0                      86.0                     0.0
+2016                           96.0                      91.0                     0.0
+2017                           99.0                     104.0                     1.0
+2018                          111.0                      92.0                     7.0
+2019                          104.0                      88.0                    16.0
+2020                           86.0                      76.0                    14.0
+2021                           72.0                      77.0                     3.0
+2022                           79.0                      80.0                    10.0
+2023                          101.0                      93.0                     9.0
+2024                           90.0                      85.0                     2.0
+
+QT_MAT por ano e curso:
+curso         Ciência da Computação  Engenharia de Computação  Engenharia de Software
+NU_ANO_CENSO                                                                         
+2015                          341.0                     304.0                   303.0
+2016                          335.0                     329.0                   354.0
+2017                          333.0                     360.0                   458.0
+2018                          348.0                     356.0                   520.0
+2019                          360.0                     355.0                   613.0
+2020                          427.0                     378.0                   828.0
+2021                          460.0                     408.0                   981.0
+2022                          482.0                     426.0                  1186.0
+2023                          511.0                     462.0                  1364.0
+2024                          520.0                     478.0                  1188.0
+
+QT_CONC por ano e curso:
+curso         Ciência da Computação  Engenharia de Computação  Engenharia de Software
+NU_ANO_CENSO                                                                         
+2015                           26.0                      24.0                    39.0
+2016                           40.0                      26.0                    32.0
+2017                           32.0                      18.0                    43.0
+2018                           36.0                      36.0                    55.0
+2019                           25.0                      54.0                    45.0
+2020                           36.0                      40.0                    64.0
+2021                           40.0                      32.0                    44.0
+2022                           41.0                      23.0                    85.0
+2023                           52.0                      39.0                   109.0
+2024                           28.0                      20.0                    81.0
+
+== TRAJETÓRIA
+Arquivos .xlsx de trajetória: 6
+  indicadores_trajetoria_educacao_superior_2015_2024.xlsx | 42.8 MB | linhas=281430 | coortes=[2015] | linhas UnB(3 cursos)=30
+     título: Indicadores de Trajetória dos Alunos nos Cursos de Graduação da Educação Superior 2024 (coorte 2015), composto por: Taxa de Permanência, Taxa de Conclusão Acumu
+  indicadores_trajetoria_educacao_superior_2016_2024.xlsx | 40.6 MB | linhas=263178 | coortes=[2016] | linhas UnB(3 cursos)=27
+     título: Indicadores de Trajetória dos Alunos nos Cursos de Graduação da Educação Superior 2024 (coorte 2016), composto por: Taxa de Permanência, Taxa de Conclusão Acumu
+  indicadores_trajetoria_educacao_superior_2017_2024.xlsx | 38.7 MB | linhas=247200 | coortes=[2017] | linhas UnB(3 cursos)=24
+     título: Indicadores de Trajetória dos Alunos nos Cursos de Graduação da Educação Superior 2024 (coorte 2017), composto por: Taxa de Permanência, Taxa de Conclusão Acumu
+  indicadores_trajetoria_educacao_superior_2018_2024.xlsx | 36.2 MB | linhas=230209 | coortes=[2018] | linhas UnB(3 cursos)=21
+     título: Indicadores de Trajetória dos Alunos nos Cursos de Graduação da Educação Superior 2024 (coorte 2018), composto por: Taxa de Permanência, Taxa de Conclusão Acumu
+  indicadores_trajetoria_educacao_superior_2019_2024.xlsx | 32.9 MB | linhas=206808 | coortes=[2019] | linhas UnB(3 cursos)=18
+     título: Indicadores de Trajetória dos Alunos nos Cursos de Graduação da Educação Superior 2024 (coorte 2019), composto por: Taxa de Permanência, Taxa de Conclusão Acumu
+  indicadores_trajetoria_educacao_superior_2020_2024.xlsx | 27.7 MB | linhas=174240 | coortes=[2020] | linhas UnB(3 cursos)=15
+     título: Indicadores de Trajetória dos Alunos nos Cursos de Graduação da Educação Superior 2024 (coorte 2020), composto por: Taxa de Permanência, Taxa de Conclusão Acumu
+
+Linhas UnB: 135 -> 135 após remover duplicatas
+Coortes na base: [2015, 2016, 2017, 2018, 2019, 2020] | fora do recorte do artigo (2015-2019): [2020]
+Validação (máx |diferença| em p.p.): TDA=0.6661 TCA=0.4049
+
+Completude (anos de referência por coorte x curso; esperado = anos de ingresso até 2024):
+curso            Ciência da Computação  Engenharia de Computação  Engenharia de Software  esperado
+NU_ANO_INGRESSO                                                                                   
+2015                                10                        10                      10        10
+2016                                 9                         9                       9         9
+2017                                 8                         8                       8         8
+2018                                 7                         7                       7         7
+2019                                 6                         6                       6         6
+2020                                 5                         5                       5         5
+
+Ingressantes por coorte x curso:
+curso            Ciência da Computação  Engenharia de Computação  Engenharia de Software
+NU_ANO_INGRESSO                                                                         
+2015                                95                        88                     139
+2016                                96                        91                     141
+2017                               100                       104                     156
+2018                               112                        93                     210
+2019                               108                        93                     269
+2020                                84                        74                     269
+
+Prazos (integralização / acompanhamento) por curso e coorte:
+ NU_ANO_INGRESSO                    curso  NU_PRAZO_INTEGRALIZACAO  NU_PRAZO_ACOMPANHAMENTO
+            2015    Ciência da Computação                        5                        8
+            2016    Ciência da Computação                        5                        8
+            2017    Ciência da Computação                        5                        8
+            2018    Ciência da Computação                        5                        8
+            2019    Ciência da Computação                        5                        8
+            2020    Ciência da Computação                        5                        8
+            2015   Engenharia de Software                        5                        8
+            2016   Engenharia de Software                        5                        8
+            2017   Engenharia de Software                        5                        8
+            2018   Engenharia de Software                        5                        8
+            2019   Engenharia de Software                        5                        8
+            2020   Engenharia de Software                        5                        8
+            2015 Engenharia de Computação                        6                       10
+            2016 Engenharia de Computação                        6                       10
+            2017 Engenharia de Computação                        6                       10
+            2018 Engenharia de Computação                        6                       10
+            2019 Engenharia de Computação                        6                       10
+            2020 Engenharia de Computação                        6                       10
+
+Indicadores 5 anos após o ingresso:
+ NU_ANO_INGRESSO                    curso  QT_INGRESSANTE  TAP  TCA  TDA
+            2015    Ciência da Computação              95 32.6 13.7 53.7
+            2016    Ciência da Computação              96 34.4 21.9 43.8
+            2017    Ciência da Computação             100 35.0 19.0 46.0
+            2018    Ciência da Computação             112 40.2 26.8 33.0
+            2019    Ciência da Computação             108 45.4 24.1 30.6
+            2015   Engenharia de Software             139 56.1 28.1 15.8
+            2016   Engenharia de Software             141 61.7 17.0 21.3
+            2017   Engenharia de Software             156 55.1 14.1 30.8
+            2018   Engenharia de Software             210 55.7 22.9 21.4
+            2019   Engenharia de Software             269 70.6  9.3 20.1
+            2015 Engenharia de Computação              88 21.8 23.0 55.2
+            2016 Engenharia de Computação              91 33.0 25.3 41.8
+            2017 Engenharia de Computação             104 37.5 12.5 50.0
+            2018 Engenharia de Computação              93 32.3 20.4 47.3
+            2019 Engenharia de Computação              93 49.5 17.2 33.3
+
+Dicionário salvo em saidas/dicionario_trajetoria.txt (fonte: Dicionário_acompanhamento_trajetória.docx)
